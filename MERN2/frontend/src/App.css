@@ -1,0 +1,73 @@
+body{
+  background-color:aliceblue;
+  background-image: url(./images/farm2.png.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.Auth-form-container {
+  background-image: url(./images/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto,center top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -50px;
+  
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: rgb(239, 244, 239);
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.registration{
+  background-color:transparent;
+  justify-content: center;
+  width: 40%;
+  margin-left: 23%;
+  margin-bottom: 10%;
+  margin-top: 8%;
+  border-radius: 8px;
+  height: 60vh;
+  width: 55vw;
+  
+}
+.loginimg{
+  background-image: url(./images/farm2.png.jpg);
+  /* background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 20%;
+  margin-left: 100%;
+  margin-top: 30px;
+
+}

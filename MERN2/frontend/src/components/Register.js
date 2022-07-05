@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
-
+import Navbar from "../components/Navbar";
 const Register = () => {
   const[user,setUser] = useState({
     username:"",email:"",fname:"" ,lname:"",pnum:"",state:"",city:"",dist:"",DOB:"",password:""
-});
+}); 
 
 let name,value;
 const handlechange=(e)=>{
@@ -49,20 +49,26 @@ const handlechange=(e)=>{
   }
   return (
     <>
+    
     <form onSubmit={pass} method="POST">
+      <div className='imageregister'> 
+       
     <div class="registration">
+    
     <div class="input-group mb-3">
      
      <span class="input-group-text" id="basic-addon1">@</span>
      <input type="text" 
             class="form-control" 
-            placeholder="Username" 
+            style={{transition:"top 200ms"}}
+            placeholder="Username  "               
             aria-label="Username" 
             aria-describedby="basic-addon1"
             onChange={handlechange}
            value={user.username}
             name="username"
             />
+            
      </div>
      
      <div class="input-group mb-3">
@@ -178,6 +184,7 @@ const handlechange=(e)=>{
               // onClick={pass}
              >Register</button> 
       
+     </div>
      </div>
     </div>
     </form>
